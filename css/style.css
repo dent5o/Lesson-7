@@ -234,7 +234,6 @@ header {
 .title {
 	text-align: left;
 	display: block;
-	margin-left: 210px;
 	width: 683px;
 	font-weight: 900;
 	font-size: 56px;
@@ -244,7 +243,6 @@ header {
 }
 
 .button {
-	margin-left: 210px;
 	max-width: 211px;
 	font-weight: 700;
 	font-size: 12px;
