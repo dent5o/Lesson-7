@@ -1,0 +1,368 @@
+/* &display=swap - добавить в конце строки при использовании плагина Google Fonts 
+&subset=cyrillic-ext - добавить (без пробела) к выше указанному для работы кириллического начертания*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 800;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	text-align: justify;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/*Стили*/
+
+a {
+	color: #FFFFFF;
+}
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+	font-size: 32px;
+	padding-left: 20px;
+}
+
+span {
+	color: #ff0000;
+}
+
+p {
+	margin: 20px 0 20px 150px;
+	font-size: 24px;
+}
+
+header {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.title__main {
+	margin-left: 0;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.block {
+	border: 1px solid #000000;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 100px 50px;
+	color: #2be2d9;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.bg-color {
+	background-color: #ee82ee;
+	color: #fff8dc;
+}
+.bg-image {
+	background-image: url(../img/pattern.jpg);
+	color: #140f02;
+}
+
+.bg-gradient {
+	background-image: linear-gradient(135deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+}
+
+.bg-repeat {
+	background-image: url(../img/warning.png);
+}
+
+.bg-norepeat {
+	background-image: url(../img/warning.png);
+	background-repeat: no-repeat;
+}
+
+.bg-repeatxy {
+	background-image: url(../img/warning.png);
+	background-repeat: repeat-x;
+}
+
+.pos-center {
+	background-image: url(../img/clipart.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.pos-bottom {
+	background-image: url(../img/clipart.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.pos-opt {
+	background-image: url(../img/clipart.png);
+	background-position: -50% -50%;
+	background-repeat: no-repeat;
+}
+
+.size-auto {
+	background-image: url(../img/bmw.jpg);
+}
+
+.size-percent {
+	background-image: url(../img/bmw.jpg);
+	background-size: 50%;
+}
+
+.size-cover {
+	background-image: url(../img/bmw.jpg);
+	background-size: cover;
+}
+
+.size-contain {
+	background-image: url(../img/bmw.jpg);
+	background-size: contain;
+}
+
+.att-fix {
+	background-image: url(../img/bmw.jpg);
+	background-attachment: fixed;
+}
+
+.bg-uni {
+	padding: 400px 50px;
+	width: 1200px;
+	height: 1000px;
+	background: url(../img/warning.png) 0 0/60px repeat-x, url(../img/warning.png) 0 100%/60px repeat-x, linear-gradient(to bottom, rgba(207, 207, 207, 0.055) 0%, rgba(41, 169, 255, 0.192) 0%, rgba(255, 114, 71, 0.192) 100%), url(../img/clipart.png)31% 64%/100px no-repeat fixed, url(../img/bmw.jpg) center/cover fixed;
+}
+
+.block-list {
+	width: 150px;
+	margin: 20px auto;
+}
+
+.list li {
+	padding: 20px;
+	font-size: 19px;
+	min-height: 30px;
+	background: url(../img/favicon.png) 100% 50%/30px no-repeat;
+}
+
+/*Макет*/
+
+.contacts {
+	width: 237px;
+	margin: 20px auto;
+}
+
+.contacts__list li{
+	text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin-bottom: 16px;
+	padding-left: 30px;
+}
+
+.place {
+	background: url(../img/place.png) 0 20% no-repeat;
+}
+
+.phone {
+	background: url(../img/smartphone.png) 0 50% no-repeat;
+}
+
+.mail {
+	background: url(../img/email.png) 0 50% no-repeat;
+}
+
+.time {
+	background: url(../img/timer.png) 0 60% no-repeat;
+}
+
+.hero {
+	margin: 20px 0;
+	padding: 146px 0 232px 0;
+	background: url(../img/Heroshot\ 3.jpg) center/cover;
+}
+
+.title {
+	text-align: left;
+	display: block;
+	margin-left: 210px;
+	width: 683px;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 56px;
+	color: #FFFFFF;
+	margin-bottom: 48px;
+}
+
+.button {
+	margin-left: 210px;
+	max-width: 211px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+}
+
+.button__bg {
+	background: url(../img/arrow_forward_24px.png) 93% 50% no-repeat, url(../img/button-bg.png) right/48px no-repeat,#C40B0B;
+	padding: 12px 0 12px 16px;
+}
+
+.button:hover {
+	box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.89);
+	transition: all 1s ease;
+}
+
+.button__bg:hover {
+	opacity: 0.8;
+	transition: all 1s ease;
+}
+
+.stats {
+	margin:20px 0 20px 0;
+	background: #02133C;
+	padding: 112px 0 134px 0;
+}
+
+.container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.impact-block {
+	display: inline-block;
+	margin-right: 111px;
+	margin-bottom: 79px;
+}
+
+.impact-block__title {
+	margin-bottom: 31px;
+	padding-left: 33px;
+	display: block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 16px;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #D5D5D5;
+	background: url(../img/Overline\ Mark.png) 0 50% no-repeat;
+}
+
+.impact-block__text {
+	width: 411px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.picture {
+	width: 498px;
+	margin: 0 0 -263px auto;
+}
+
+.stat-block {
+	display: inline-block;
+	width: 237px;
+	padding: 6px 0 4px 87px;
+	margin-right: 24px;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.stat-block__count {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.stat-block__title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+	margin: 0;
+}
+
+.counts {
+	white-space: nowrap;
+}
+
+.oil-block {
+	background: url(../img/car_oil-24x.png) no-repeat;
+}
+.transmission-block {
+	background: url(../img/car_transmission_24x.png) no-repeat;
+}
+.alignment-block {
+	background: url(../img/car_alignment_24x.png) no-repeat;
+}
+.engine-block {
+	background: url(../img/car_engine_2_24x.png) no-repeat;
+	margin-right: 0;
+}
+
+footer {
+	padding: 30px 0;
+}
+
+.validation {
+	text-align: center;
+}
+
+.image {
+	display: inline-block;
+}
