@@ -268,7 +268,7 @@ header {
 
 .stats {
 	margin:20px 0 20px 0;
-	background: #02133C;
+	background: url(../img/overlay.png) center no-repeat, #02133C;
 	padding: 112px 0 134px 0;
 }
 
